@@ -1,0 +1,23 @@
+name: newtify
+description: >-
+  Have you been turned into a newt?  Would you like to be? This package can
+  help. It has all of the newt-transmogrification functionality you have been
+  looking for.
+
+environment:
+  sdk: '^3.3.0'
+dependencies:
+  cloud_firestore: any
+  curved_navigation_bar: any
+  firebase_auth: any
+  firebase_core: ^2.27.1
+  firebase_storage: any
+  flutter: any
+  flutter_stripe: ^10.1.1
+  fooddeliveryapp: any
+  http: any
+  image_picker: any
+  random_string: any
+dev_dependencies:
+  flutter_test: any
+  food_delivery_app: any

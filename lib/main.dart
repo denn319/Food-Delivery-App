@@ -1,15 +1,32 @@
 import 'package:firebase_core/firebase_core.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:fooddeliveryapp/admin/add_food.dart';
-import 'package:fooddeliveryapp/admin/admin_login.dart';
-import 'package:fooddeliveryapp/admin/home_admin.dart';
-import 'package:fooddeliveryapp/pages/bottomnav.dart';
-import 'package:fooddeliveryapp/pages/home.dart';
-import 'package:fooddeliveryapp/pages/login.dart';
-import 'package:fooddeliveryapp/pages/onboard.dart';
+// import 'package:fooddeliveryapp/admin/add_food.dart';
+import 'admin/add_food.dart';
 
-import 'package:fooddeliveryapp/pages/signup.dart';
+// import 'package:fooddeliveryapp/admin/admin_login.dart';
+import 'admin/admin_login.dart';
+
+// import 'package:fooddeliveryapp/admin/home_admin.dart';
+import 'admin/home_admin.dart';
+
+// import 'package:fooddeliveryapp/pages/bottomnav.dart';
+import 'pages/bottomnav.dart';
+
+// import 'package:fooddeliveryapp/pages/home.dart';
+// import 'pages/home.dart';
+import 'pages/login.dart';
+
+// import 'package:fooddeliveryapp/pages/login.dart';
+import 'pages/login.dart';
+
+// import 'package:fooddeliveryapp/pages/onboard.dart';
+import 'pages/onboard.dart';
+
+// import 'package:fooddeliveryapp/pages/signup.dart';
+import 'pages/signup.dart';
+
 import 'package:fooddeliveryapp/widget/app_constant.dart';
 
 void main() async {
